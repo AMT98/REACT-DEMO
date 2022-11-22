@@ -1,10 +1,18 @@
-ReactDOM.render(
-<ul>
-    <li>
-        <p>HI</p>
-    </li>
+const documents = (
+<nav>
+    <h1>Aswin's DEMO website</h1>
+    <ul>
+        <li>
+            Pricing
+        </li>
+        <li>
+            About
+        </li>
+        <li>
+            Contact
+        </li>
+    </ul>
+</nav>
+)
 
-    <li>
-        <p>Everyone!</p>
-    </li>
-</ul>, document.getElementById("root"))
+ReactDOM.render(documents, document.getElementById("root"))
