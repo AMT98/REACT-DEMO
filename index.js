@@ -31,3 +31,4 @@ return (
 
 
 ReactDOM.render(<WebPage />, document.getElementById("root"))
+// Import a function from a different js file and return it from a function that loads the entire webpage.
